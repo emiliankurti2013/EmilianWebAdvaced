@@ -20,60 +20,115 @@
     </nav>
 </header>
 
-<section class="page-banner">
-    <h1>Contact Us</h1>
-    <p>We would love to hear from you.</p>
-</section>
 
-<section class="contact-section">
+<main class="contact-page">
 
-    <div class="contact-info">
-        <h2>Get in Touch</h2>
-        <p>Have a question about a computer or laptop? Contact us.</p>
+    <section class="contact-heading">
+        <h1>Contact Us</h1>
+        <p>
+            Have a question about our computers or laptops?
+            Get in touch with the Delta Computers team.
+            We're happy to help!
+        </p>
+    </section>
 
-        <div class="contact-item">
-            <h3>📧 Email</h3>
-            <p>info@deltacomputers.com</p>
-        </div>
+    <section class="contact-layout">
 
-        <div class="contact-item">
-            <h3>📞 Phone</h3>
-            <p>+383 44 000 000</p>
-        </div>
-
-        <div class="contact-item">
-            <h3>📍 Location</h3>
-            <p>Pristina, Kosovo</p>
-        </div>
         
-    </div>
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p class="contact-description">
+                Contact us for product information, prices,
+                availability, or help choosing your next computer.
+            </p>
 
-    <div class="contact-form">
-        <h2>Send Us a Message</h2>
+            <div class="contact-info-card">
+                <div class="contact-icon">📞</div>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+383 44 123 456</p>
+                </div>
+            </div>
 
-        <form action="#" method="post">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name"
-                   placeholder="Enter your name" required>
+            <div class="contact-info-card">
+                <div class="contact-icon">✉️</div>
+                <div>
+                    <h3>Email</h3>
+                    <p>DeltaComputers@tech.com</p>
+                </div>
+            </div>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email"
-                   placeholder="Enter your email" required>
+            <div class="contact-info-card">
+                <div class="contact-icon">📍</div>
+                <div>
+                    <h3>Our Location</h3>
+                    <p>Prishinë, Kosovë</p>
+                </div>
+            </div>
 
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject"
-                   placeholder="What is your message about?" required>
+            <div class="contact-info-card">
+                <div class="contact-icon">🕒</div>
+                <div>
+                    <h3>Working Hours</h3>
+                    <p>11:00-21:00</p>
+                </div>
+            </div>
+        </div>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5"
-                      placeholder="Write your message here..."
-                      required></textarea>
+        
+        <div class="contact-form-card">
+            <h2>Send Us a Message</h2>
+            <p class="contact-description">
+                Fill in the form below and tell us how we can help.
+            </p>
 
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </div>
+            <form action="#" method="post">
+                <label for="contact-name">Full Name</label>
+                <input
+                    type="text"
+                    id="contact-name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
 
-</section>
+                <label for="contact-email">Email Address</label>
+                <input
+                    type="email"
+                    id="contact-email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="contact-subject">Subject</label>
+                <input
+                    type="text"
+                    id="contact-subject"
+                    name="subject"
+                    placeholder="What is your message about?"
+                    required
+                >
+
+                <label for="contact-message">Your Message</label>
+                <textarea
+                    id="contact-message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="contact-submit">
+                    Send Message
+                </button>
+            </form>
+        </div>
+
+    </section>
+
+</main>
+
 
 <footer>
     <p>&copy; 2026 Delta Computers. All rights reserved.</p>
