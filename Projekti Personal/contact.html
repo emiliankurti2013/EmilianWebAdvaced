@@ -4,83 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delta Computers | Contact</title>
+    <title>Delta Computers | Contact Us</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <div class="logo">DELTA <span>COMPUTERS</span></div>
+    <header>
+        <div class="logo">Delta<span>Computers</span></div>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="shop.html">Shop</a>
-        <a href="contact.html" class="active">Contact</a>
-    </nav>
-</header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
 
-<section class="page-banner">
-    <h1>Contact Us</h1>
-    <p>We would love to hear from you.</p>
-</section>
+    <main>
+        <section class="page-banner">
+            <h1>Contact Us</h1>
+            <p>Have a question? We'd be happy to hear from you.</p>
+        </section>
 
-<section class="contact-section">
+        <section class="contact-layout">
+            <div class="contact-details">
+                <p class="small-title">GET IN TOUCH</p>
+                <h2>Let's talk technology.</h2>
 
-    <div class="contact-info">
-        <h2>Get in Touch</h2>
-        <p>Have a question about a computer or laptop? Contact us.</p>
+                <p>
+                    Want to ask about a product or need help choosing
+                    a computer? Send us a message using the form.
+                </p>
 
-        <div class="contact-item">
-            <h3>📧 Email</h3>
-            <p>info@deltacomputers.com</p>
-        </div>
+                <table class="contact-table">
+                    <tbody>
+                        <tr>
+                            <th>Email</th>
+                            <td>info@deltacomputers.example</td>
+                        </tr>
+                        <tr>
+                            <th>Phone</th>
+                            <td>+383 00 000 000</td>
+                        </tr>
+                        <tr>
+                            <th>Working hours</th>
+                            <td>Monday – Friday, 09:00–17:00</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-        <div class="contact-item">
-            <h3>📞 Phone</h3>
-            <p>+383 44 000 000</p>
-        </div>
+                <p class="table-note">
+                    The contact details above are placeholders for this project.
+                </p>
+            </div>
 
-        <div class="contact-item">
-            <h3>📍 Location</h3>
-            <p>Pristina, Kosovo</p>
-        </div>
+            <div class="contact-form">
+                <h2>Send us a message</h2>
 
-        <p class="small-note">
-            Replace these example contact details with your real information.
-        </p>
-    </div>
+                <form action="#" method="post">
+                    <label for="name">Your name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
 
-    <div class="contact-form">
-        <h2>Send Us a Message</h2>
+                    <label for="email">Email address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
 
-        <form action="#" method="post">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name"
-                   placeholder="Enter your name" required>
+                    <label for="subject">Subject</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="What is your message about?"
+                        required>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email"
-                   placeholder="Enter your email" required>
+                    <label for="message">Your message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message here..."
+                        required></textarea>
 
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject"
-                   placeholder="What is your message about?" required>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5"
-                      placeholder="Write your message here..."
-                      required></textarea>
-
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </div>
-
-</section>
-
-<footer>
-    <p>&copy; 2026 Delta Computers. All rights reserved.</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 Delta Computers. All rights reserved.</p>
+        <p>Technology made simple.</p>
+    </footer>
 
 </body>
 </html>
